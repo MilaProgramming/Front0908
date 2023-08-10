@@ -1,0 +1,74 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    background-image: url('banner-image.jpg');
+    background-size: cover;
+    height: 300px;
+}
+
+.content {
+    background-color: #fce0db;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: -100px;
+    margin-right: 50px;
+}
+
+.menu {
+    margin-top: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ff6b6b;
+    margin: 0 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+.menu a:hover {
+    color: #ff4040;
+}
+
+.name {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.job-title {
+    font-size: 18px;
+    color: #ff6b6b;
+    margin-top: 5px;
+}
+
+.footer {
+    background-color: #fce0db;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footer a {
+    margin: 0 10px;
+}
+
+.footer img {
+    width: 30px;
+    height: 30px;
+    opacity: 0.7;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.footer img:hover {
+    opacity: 1;
+}
